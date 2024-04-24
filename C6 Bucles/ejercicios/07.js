@@ -3,6 +3,9 @@ function esParYDivisiblePorTres(a) {
   // Retorna true si este es par y divisible por tres a la vez.
   // Retorna false si no lo es.
   // Tu código:
+
+  return (a%6 === 0);
+
 }
 
 module.exports = esParYDivisiblePorTres;
