@@ -7,6 +7,17 @@ function combine(str1, str2, str3) {
   // combine("abc", "12345", "") == "a1b2c345"
   // combine("abc", "12345", "67") == "a16b27c345"
   // Tu código:
-}
 
+  
+
+
+  var StrinFinal = []
+  StrinFinal.push(str1[0])
+  console.log(StrinFinal)
+  for (var i = 0; i<Math.max(str1.length,str2.length,str3.length); i++){
+    
+  }
+
+}
+combine('abc','','')
 module.exports = combine;
